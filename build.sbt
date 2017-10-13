@@ -6,9 +6,9 @@ android.useSupportVectors
 
 name := "shadowsocksr"
 
-applicationId := "in.zhaoj.shadowsocksr"
+applicationId := "com.github.shadowsocksr"
 
-platformTarget := "android-25"
+platformTarget := "android-26"
 
 compileOrder := CompileOrder.JavaThenScala
 javacOptions ++= "-source" :: "1.7" :: "-target" :: "1.7" :: Nil
